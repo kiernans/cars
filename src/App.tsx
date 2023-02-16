@@ -5,7 +5,7 @@ import CarValue from './components/CarValue';
 
 const App = () => {
 	return (
-		<div>
+		<div className='container is-blue'>
 			<CarForm />
 			<CarList />
 			<CarSearch />
